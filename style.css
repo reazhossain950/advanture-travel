@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+
+/* Main CSS start */
+#navbar{
+    margin: 20px;
+}
+.logo{
+
+    display: flex;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+/* Responsive css start */
