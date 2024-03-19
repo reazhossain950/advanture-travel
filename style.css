@@ -115,16 +115,18 @@
     border-radius: 10px;
 
 }
-.destination-head{
+.destination-head,.card-head{
     margin-top: 50px;
 }
-.destination-head h2{
+.destination-head,.card-head h2{
     font-size: 40px;
     font-weight: 900;
     text-align: center;
     margin-bottom: 20px;
 }
-.destination-head p{
+.destination-head,.card-head p{
+    font-size: 16px;
+    font-weight: 400;
     text-align: center;
     padding: 20px 300px;
 
@@ -133,6 +135,18 @@
 .destination-head img{
     width: 100%;
 }
+.first-card-line{
+    display: flex;
+}
+
+.first-card-line div{
+    padding: 30px;
+}
+.third-card-line{
+    width: 50%;
+    margin: 0 auto;
+}
+
 /* Responsive css start */
 
 @media screen and (max-width: 600px) {
